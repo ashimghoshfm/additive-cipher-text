@@ -32,10 +32,9 @@ document.write("Encrypted text:  "+total);
 // const alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 // let pt = prompt("Enter your text: ");
 // let ek = Number(prompt("Enter Encryption key: "));
-
+// var total = "";
 // for(var i=0; i<pt.length; i++){
 //     var ct=[];
-//     var total = "";
 //     for(var j=0; j<alphabet.length; j++){
 //         if(pt[i]==alphabet[j]){
 //             j=(j+ek)%26;
@@ -45,6 +44,6 @@ document.write("Encrypted text:  "+total);
 //             break;
 //         }
 //     }
-    
-//     document.write(total);
+//     // document.write(total);
 // }
+// document.write(total);
